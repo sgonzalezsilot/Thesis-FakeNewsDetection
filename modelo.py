@@ -9,7 +9,7 @@ class Modelo:
         self.preprocesador = Preprocesador(idioma)
     
     def predecir(self,texto):
-        test_input_ids,test_attention_masks = self.prepocesador.prepocesar(texto)
+        test_input_ids,test_attention_masks = self.preprocesador.preprocesar(texto)
         prediccion = self.clasificador.predecir(test_input_ids,test_attention_masks)
         prediccion = np.round(prediccion)
         print(prediccion)

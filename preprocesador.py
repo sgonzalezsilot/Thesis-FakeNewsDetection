@@ -5,13 +5,13 @@ class Preprocesador:
 
     def __init__(self,idioma):
         if idioma == "ES":
-            self.sentence_length = 96
-            self.model_name = "cardiffnlp/twitter-roberta-base-mar2022"
+            self.sentence_length = 310
+            self.model_name = "PlanTL-GOB-ES/bsc-bio-es"
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         elif idioma == "EN":
-            self.sentence_length = 310
+            self.sentence_length = 110
             # Revisar: Actualizar
-            self.model_name = "cardiffnlp/twitter-roberta-base-mar2022"
+            self.model_name = "digitalepidemiologylab/covid-twitter-bert-v2"
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
 
 

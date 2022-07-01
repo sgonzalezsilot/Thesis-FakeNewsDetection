@@ -71,22 +71,22 @@ body {
 
 .heading_container {
   h2 {
-    font-weight: bold;
+    //font-weight: bold;
     color: #1d1e31;
     text-align: center;
     position: relative;
     padding-bottom: 10px;
 
-    &::before {
-      content: "";
-      width: 100px;
-      height: 1px;
-      background-color: $colorPrimary;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 0;
-    }
+    //&::before {
+    //  content: "";
+    //  width: 100px;
+    //  height: 1px;
+    //  background-color: $colorPrimary;
+    //  position: absolute;
+    //  left: 50%;
+    //  transform: translateX(-50%);
+    //  bottom: 0;
+    //}
   }
 }
 
@@ -325,6 +325,14 @@ a:focus {
   }
 
   .detail-box {
+
+    h3 {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 3.5rem;
+      color: #1c7430;
+    }
+
     h2 {
       text-transform: uppercase;
       font-weight: normal;

@@ -7040,6 +7040,10 @@ button.bg-dark:focus {
 .justify-content-between {
   -ms-flex-pack: justify !important;
   justify-content: space-between !important;
+  position: relative;
+  left: 45%;
+  transform: translateX(-50%);
+
 }
 
 .justify-content-around {
