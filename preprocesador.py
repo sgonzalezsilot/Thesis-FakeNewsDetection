@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer, AutoModel, TFAutoModel,TFRobertaForSequenceClassification, TFBertModel, TFRobertaModel
+from transformers import AutoTokenizer
 import numpy as np
 
 class Preprocesador:
@@ -10,7 +10,6 @@ class Preprocesador:
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         elif idioma == "EN":
             self.sentence_length = 110
-            # Revisar: Actualizar
             self.model_name = "digitalepidemiologylab/covid-twitter-bert-v2"
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
 
