@@ -10,13 +10,15 @@ The rest of the files correspond to the web app of the work.
 * Implementation of a basic web interface for the use and access to the models. Currently it can be accessed through HuggingFace: 
 https://huggingface.co/spaces/sgonzalezsilot/Fake-News-Twitter-Detection_from-my-Thesis
 
-**Model architecture**
+**Model architecture:**
 ![](images/model_plot.png)
 
 **Fake News in English**
 ![](images/resultados constraint.png)
+
 ![](images/mc ingles.png)
 
 **Fake News in Spanish**
 ![](images/resultados iberlef.png)
+
 ![](images/mc español.png)
