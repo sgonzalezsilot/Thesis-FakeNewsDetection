@@ -1,5 +1,6 @@
-# WebAppTFG
-Repositorio del Análisis Científico y App web del Trabajo Fin de Grado de **Santiago González Silot**
+# Theis: Fake News Detection using BERT, Transformers and NLP
+Repository of the Scientific Analysis and Web App of the Final Degree Project of **Santiago González Silot**.
 
-* En el fichero Fine-Tuning.ipynb se realiza el análisis de los 2 *datasets* junto a las distintas pruebas realizadas en el trabajo.
-* El resto de fichero corresponden a la app web del trabajo.
+* The Fine-Tuning.ipynb file contains the analysis of the 2 *datasets* together with the different tests carried out in the work.
+* The rest of the files correspond to the web app of the work.
+
