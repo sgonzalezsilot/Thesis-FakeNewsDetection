@@ -15,11 +15,12 @@ https://huggingface.co/spaces/sgonzalezsilot/Fake-News-Twitter-Detection_from-my
 ![](images/model_plot.png)
 
 ## Fake News in English
-![](images/resultados constraint.png)
+![](images/resultados_constraint.png)
 
-![](images/mc ingles.png)
+![](images/mc_ingles.png)
+
 
 ## Fake News in Spanish
-![](images/resultados iberlef.png)
+![](images/resultados_iberlef.png)
 
-![](images/mc español.png)
+![](images/mc_español.png)
