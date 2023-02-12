@@ -12,9 +12,8 @@ https://huggingface.co/spaces/sgonzalezsilot/Fake-News-Twitter-Detection_from-my
 
 |  Model  |  F1-Score | Place in the competition | Difference with the winner |
 |:-------:|:---------:|:------------------------:|----------------------------|
-| Spanish | **98.41** |             8            | 0.2                        |
-| English | **73.77** |             5            | 2.89                       |
-
+| English | **98.41** |             8            | 0.2                        |
+| Spanish | **73.77** |             5            | 2.89                       |
 
 ## Model architecture
 ![](images/model_plot.png)
